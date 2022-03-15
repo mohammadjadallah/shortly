@@ -6,15 +6,13 @@
 }
 
 body{
-    display: flex; /* بيخليهم بنفس السطر*/
+    display: flex; 
     justify-content: center;
     align-items: center;
     height: 100vh;
     flex-direction: column;
     font-family: sans-serif;
-    /* background-color:rgb(189, 65, 238); */
     background-image: url(https://img.freepik.com/free-photo/studio-background-concept-dark-gradient-purple-studio-room-background-product_1258-53155.jpg?t=st=1647363952~exp=1647364552~hmac=18703048cf5507516b1ff0dc49d53f256b4a726202467d0463d5bdf6ed0dde8d&w=826);
-    /* https://img.freepik.com/free-photo/pastel-tone-purple-pink-blue-gradient-defocused-abstract-photo-smooth-lines-color-background_49683-4149.jpg?size=626&ext=jpg&ga=GA1.2.727876.1647295610 */
     background-size: 1400px;
 
 
@@ -86,7 +84,6 @@ body{
 }
 
 #social-box img:hover {
-    /*وبعدها حددنا ثواني الانتقال بهذه الطرييقة يمكننا عمل انتقال للأعلى عند وضع المؤشر على الأيقونة */
     transform: translateY(-4px);
     transition:0.3s;
 
@@ -101,7 +98,6 @@ body{
 }
 
 
-/* هنا يعني أن جميع الكود أعلاه موجود بداخل القطعة بالأسفل تساعدنا في جعل الشاشة مناسبة */
 @media only screen and (min-width:1000px) and (max-width:1100px) {
 
     p {

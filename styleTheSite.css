@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    display: flex; /* بيخليهم بنفس السطر*/
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    font-family: sans-serif;
+    /* background-color:rgb(189, 65, 238); */
+    background-image: url(https://img.freepik.com/free-photo/studio-background-concept-dark-gradient-purple-studio-room-background-product_1258-53155.jpg?t=st=1647363952~exp=1647364552~hmac=18703048cf5507516b1ff0dc49d53f256b4a726202467d0463d5bdf6ed0dde8d&w=826);
+    /* https://img.freepik.com/free-photo/pastel-tone-purple-pink-blue-gradient-defocused-abstract-photo-smooth-lines-color-background_49683-4149.jpg?size=626&ext=jpg&ga=GA1.2.727876.1647295610 */
+    background-size: 1400px;
+
+
+}
+.download-btn {
+    display: block;
+    background-color: rgb(130, 27, 241);
+    color: aliceblue;
+    padding: 25px;
+    
+    cursor: pointer;
+    text-decoration: none;
+    width: 520px;
+    height: 80px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 30px;
+    user-select: none;
+    min-zoom: 100%;
+
+}
+
+
+.download-btn:hover {
+    background: linear-gradient(rgb(173, 53, 206), rgb(192, 61, 209))
+}
+
+.downloadoOurAppNow {
+    color: rgb(255, 255, 255);
+    margin-bottom: 60px;
+    margin-top: 30px;
+    font-size: 17px;
+    font-weight: bold;
+    user-select: none;
+    z-index: 1;
+}
+
+#text {
+    
+    margin-bottom: 150px;
+
+    
+}
+
+.text{
+    right: 60px;
+    font-family: sans-serif;
+    font-size: 28px;
+    color:rgb(255, 255, 255);
+    padding: 20px;
+    line-height: 35px;
+    user-select: none;
+    
+
+}
+
+#social-box{
+    width: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.mysocial {
+    width: 120px;
+    padding: 10px;
+    margin-top: 40px;
+    user-select: none;
+}
+
+#social-box img:hover {
+    /*وبعدها حددنا ثواني الانتقال بهذه الطرييقة يمكننا عمل انتقال للأعلى عند وضع المؤشر على الأيقونة */
+    transform: translateY(-4px);
+    transition:0.3s;
+
+}
+
+
+#copywrite {
+    margin-top: 50px;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+}
+
+
+/* هنا يعني أن جميع الكود أعلاه موجود بداخل القطعة بالأسفل تساعدنا في جعل الشاشة مناسبة */
+@media only screen and (min-width:1000px) and (max-width:1100px) {
+
+    p {
+        margin-top: 1000px;
+        min-width: 1000%;
+    }
+
+    #social-box{
+        width: 100%;
+
+    }
+
+    .text{
+        width: 10%;
+        margin-top: 100px;
+    }
+
+}
+
+@viewport {
+    
+}
